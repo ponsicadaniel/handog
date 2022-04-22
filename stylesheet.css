@@ -266,3 +266,34 @@ img{
   transition: 0.2s;
   cursor: pointer;
 }
+
+/* Main Feed Page */
+.feed {
+  display: flex;
+  padding: 30px;
+  margin: 0px 100px 10px 100px;
+  background:#e7e9f0;
+}
+
+.feed .col-1 {
+  flex-basis: 25%;
+}
+
+.feed img {
+  width: 400px;
+}
+
+.feed .col-2 {
+  flex-basis: 75%;
+  padding-left: 50px;
+}
+
+.feed .col-2 {
+  color: #051747;
+  padding-bottom: 0px;
+}
+
+.feed h2 {
+  font-size: 30px;
+  line-height: 0%;
+}
